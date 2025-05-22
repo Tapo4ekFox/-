@@ -174,5 +174,25 @@ header {
   margin-bottom:10px;
 }
 
-
+nav {
+  background-color:#f1f1f1;
+  box-shadow:4px 5px 15px rgba(0,0,0.5);
+  font-family:"arial", sans-serif;
+  font-weight:bold;
+}
+nav ul {
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  background-color:rgba(177,189,236,0.398);
+}
+nav li {
+  display:block;
+  padding:20px;
+  font-size:25px;
+}
+nav li a {
+  text-decoration:none;
+  color:rgb(78,35,4);
+}
 
